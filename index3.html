@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <button id="boton2" onclick="Salir()">Salir</button>
+    <p></p>
+    <h1 id="titulo">TalkChat</h1>
+    <img src="imagen1.jpg" id="imagen1">
+    <p></p>
+    <section id="seccion1">
+        <img src="logo principal.jpg" id="logo_principal">
+        <p></p>
+        <div id="nombres_sala">
+            <h3 id="sala_actual">Nombre de la sala</h3>
+            <p></p>
+            <h3 id="mensaje_sala">Mensajes de la sala</h3>
+        </div>
+        <h3>Enviar y publicar un mensaje en la sala</h3>
+        <input id="texto_entrada" placeholder="Escriba su mensaje" type="text">
+        <p></p>
+        <button id="mensaje" onclick="enviar_mensaje()">Enviar mensaje:</button>    
+    </center>
+    <script src="main3.js"></script>
+</body>
+</html>

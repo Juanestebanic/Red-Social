@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talkchat</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    
+</head>
+<body>
+    <center>
+<button id="boton2" onclick="Salir()">Salir</button>
+<p></p>
+<h1 id="titulo">TalkChat</h1>
+<img src="imagen1.jpg" id="imagen1">
+    <p></p>
+    <section id="seccion1">
+        <h1 id="h1">Hola usuario!</h1>
+        <h2>Ingresar a una sala o unirse a una existente</h2>
+        <h2>Añadir sala:</h2>
+        <p></p>
+        <input placeholder="Escriba un nombre para su sala" id="Entrada_texto2" type="text">
+        <p></p>
+        <button id="boton3" onclick="Agregar_sala()">Agregar sala: </button>
+    </section>
+    <p></p>
+    <h3>Salas existentes:</h3>
+    <p></p>
+    <div id="div1">
+        <h3 id="salas_creadas">Salas creadas:</h3>
+    </div>
+    </center>
+    <script src="main2.js"></script>
+</body>
+</html>
